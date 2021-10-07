@@ -12,10 +12,10 @@ function App() {
     <Fragment>
       <div className="container">
         <InputTodo />
-        <ListTodos />
+        <ListTodos />    
       </div>
     </Fragment>
-  );
+  ); 
 }
 
 export default App;

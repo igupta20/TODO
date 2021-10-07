@@ -27,13 +27,13 @@ app.post("/todos", async (req, res) => {
   
 //get all todos
   
-app.get("/todos", async (req, res) => {
+app.get("/todos", async (req, res) => { 
     try {
         const allTodos = await pool.query("SELECT * FROM todo");
         res.json(allTodos.rows);
     } catch (err) {
         console.error(err.message);
-    }
+     }
 });
 
 //get a todo
@@ -86,4 +86,4 @@ app.delete("/todos/:id", async (req, res) => {
 
 app.listen(5000, () => {
     console.log("server has started on port 5000");
-}); 
+});  
