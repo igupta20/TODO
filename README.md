@@ -1,8 +1,3 @@
-# TODO
+Todo list made using PERN stack , Postgre SQL, Express, React, and Node.js
 
-PERN STACK
-
-Postgre SQL
-Express
-React
-Node
+![Screenshot](capture.png)
